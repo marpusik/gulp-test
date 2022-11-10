@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="ru" class="page">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,23 +15,43 @@
   <script defer src="js/main.js"></script>
 </head>
 
-
 <body class="page__body">
-  <div class="site-container">
-    <header class="header">
-  <div class="container"></div>
+<div class="site-container">
+  <header class="header">
+  <div class="container-fluid header__container">
+    <a href="#" class="logo">
+      <img loading="lazy" src="../img/svg/logo.svg" class="image" width="228" height="48" alt="logo">
+    </a>
+    <nav class="nav" title="menu">
+      <ul class="list-reset nav__list">
+        <li class="nav__item"><a href="#about" class="nav__link" data-scroll>О школе</a></li>
+        <li class="nav__item"><a href="#trainers" class="nav__link" data-scroll>Тренеры</a></li>
+        <li class="nav__item"><a href="#tariffs" class="nav__link" data-scroll>Стоимость</a></li>
+      </ul>
+    </nav>
+    <a href="tel:+78000001122" class="phone">+7 800 000 11 22</a>
+  </div>
 </header>
 
-    <main class="main">
-      vbm
-    </main>
-
-    <footer class="footer">
+  <main class="main">
+    <section class="hero">
+  <div class="container hero__container">
+    <div class="hero__content">
+      <h1 class="hero__title">
+        Robo Schooll
+        <span class="hero__title-text">
+          Курсы повышения квалификации
+        </span>
+      </h1>
+      <a href="#tariffs" class="hero__link btn btn-reset" data-scroll>Записаться на курс</a>
+    </div>
+  </div>
+</section>
+  </main>
+  <footer class="footer">
   <div class="container"></div>
 </footer>
 
-    
-  </div>
+</div>
 </body>
-
 </html>
