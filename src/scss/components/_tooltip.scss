@@ -10,8 +10,17 @@
       width: 4px;
       height: 14px;
     }
+    &:focus {
+      + .tooltip__txt{
+        opacity: 1;
+        visibility: visible;
+      }
+    }
     @include hover{
-
+      + .tooltip__txt{
+        opacity: 1;
+        visibility: visible;
+      }
     }
   }
   &__txt{
