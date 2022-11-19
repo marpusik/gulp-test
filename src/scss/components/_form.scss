@@ -3,8 +3,14 @@
   flex-direction: column;
   width: 100%;
   &__label {
+    display: flex;
+    flex-direction: column-reverse;
     margin-bottom: 10px;
     width: 100%;
+  }
+  .just-validate-error-label{
+    margin-bottom: 3px;
+    color: var(--light-color) !important;
   }
   &__input {
     border-radius: 5px;

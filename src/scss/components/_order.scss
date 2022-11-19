@@ -2,6 +2,8 @@
   @include image-set("../img/percents");
   padding: 87px 0;
   background-color: var(--accent-color);
+  background-size: cover;
+  background-position: bottom center;
   &__container{
     display: grid;
     grid-template-columns: repeat(12, 1fr);

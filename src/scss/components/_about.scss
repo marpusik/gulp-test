@@ -18,6 +18,9 @@
   }
   &__item {
     grid-column: 3 span;
+    @include high-desktop {
+      grid-column: 6 span;
+    }
   }
   &__digit {
     font-weight: 600;

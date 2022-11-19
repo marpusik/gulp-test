@@ -7,6 +7,9 @@
   }
   &__item {
     grid-column: 4 span;
+    @include high-desktop{
+      grid-column: 6 span;
+    }
   }
   &__subtitle {
     display: inline-flex;
