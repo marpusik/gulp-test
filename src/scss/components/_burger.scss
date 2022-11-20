@@ -1,10 +1,10 @@
-.burger{
+.burger {
   position: relative;
   border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 10px;
   width: 44px;
   height: 44px;
-  &__line{
+  &__line {
     position: absolute;
     left: 50%;
     top: 50%;
@@ -23,4 +23,15 @@
       transform: translateY(-50%);
     }
   }
+}
+.burger-close {
+  position: relative;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 10px;
+  width: 44px;
+  height: 44px;
+  background-image: url("../../img/phone.svg");
+  background-position: center;
+  background-size: 24px 24px;
+  background-repeat: no-repeat;
 }

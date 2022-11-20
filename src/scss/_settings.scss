@@ -93,6 +93,9 @@ a {
 .page--ios .dis-scroll {
   position: relative;
 }
-.section-offset{
+.section-offset {
   padding: 120px 0;
+  @include mobile {
+    padding: 80px 0;
+  }
 }

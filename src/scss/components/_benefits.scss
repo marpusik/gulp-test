@@ -1,14 +1,20 @@
-.benefits{
+.benefits {
   background-color: #f9f9f9;
   &__list {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     gap: 40px;
+    @include mobile {
+      grid-template-columns: repeat(4, 1fr);
+    }
   }
   &__item {
     grid-column: 4 span;
-    @include high-desktop{
+    @include high-desktop {
       grid-column: 6 span;
+    }
+    @include mobile {
+      grid-column: 4 span;
     }
   }
   &__subtitle {
@@ -20,7 +26,7 @@
     line-height: 160%;
     color: var(--dark-color);
   }
-  &__descr{
+  &__descr {
     font-weight: 400;
     font-size: 18px;
     line-height: 160%;
